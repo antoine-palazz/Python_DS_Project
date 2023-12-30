@@ -9,7 +9,7 @@ Ce projet a été réalisé dans le cadre d'un cours enseigné en deuxième ann�
 L'équipe de travail est constituée de trois membres :  
     - M. Vignon Richard AKOTONOU  
     - Mme Ange Yelva PETNGA NJEUMEN  
-    - M. Appolini WODJE  
+    - M. Appolini Sylvère WODJE FONKOU  
 
 ## Objectif
 

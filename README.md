@@ -7,13 +7,22 @@ Ce projet a été réalisé dans le cadre d'un cours enseigné en deuxième ann�
 ## Participants
 
 L'équipe de travail est constitué de trois membres :  
-    - M. Vignon Richard AKOTONOU  
+    - M. Richard AKOTONOU VIGNON  
     - Mme Ange Yelva PETNGA NJEUMEN  
     - M. Appolini WODJE  
 
 ## Objectif
 
 L'objectif du travail réalisé est d'effectuer la prévision de la consommation d'énergie électrique en fonctions des grandeurs météorologiques.
+
+## Bases utilisées
+
+Les bases de données utilisées sont : 
+- **Base de consommation d'électricité** obtenue sur l'OpenData Réseaux Energies, qui présente la consommation quotidienne d'électricité par région en France métropolitaine hors Corse
+- **Base sur les données météorologiques** : les données d'observations issues des messages internationaux d’observation en surface (SYNOP) circulant sur le système mondial de télécommunication (SMT) de l’Organisation Météorologique Mondiale (OMM). Paramètres atmosphériques mesurés (température, humidité, direction et force du vent, pression atmosphérique, hauteur de précipitations) ou observés (temps sensible, description des nuages, visibilité) depuis la surface terrestre.
+- **Base du statut des journées en France** (jours fériés, ouvrés, Week end)
+- **Données géographiques de la France** : obtenue à partir de Cartifllete, qui est un projet qui faculite l'association des sources géographiques.
+
 
 ## Couverture géographique
 
@@ -72,3 +81,12 @@ V. MODELISATION DE LA CONSOMATION D'ELECTRICITE EN ILE-DE-FRANCE
     V.4 Recherche des meilleurs hyperparamètres pour le Random Forest (avec GridSeachCV)  
     V.5 Modèle retenu  
 CONCLUSION  
+
+
+
+## Packages à installer 
+```python
+! pip install git+https://github.com/inseefrlab/cartiflette@80b8a5a28371feb6df31d55bcc2617948a5f9b1a
+
+```
+

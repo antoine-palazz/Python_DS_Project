@@ -89,4 +89,13 @@ CONCLUSION
 ! pip install git+https://github.com/inseefrlab/cartiflette@80b8a5a28371feb6df31d55bcc2617948a5f9b1a
 
 ```
-
+## Packages utilisés
+```python
+import pandas as pd
+import numpy as np
+import requests
+import cartiflette.s3 as s3
+import geopandas as gpd
+import seaborn as sns
+import matplotlib.pyplot as plt
+```

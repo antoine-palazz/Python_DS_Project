@@ -89,6 +89,8 @@ CONCLUSION
 ! pip install git+https://github.com/inseefrlab/cartiflette@80b8a5a28371feb6df31d55bcc2617948a5f9b1a
 
 ```
+Parmi les packages suivants, certains pourraient être à téléchargés si vous n'êtes pas sur le Datalab
+
 ## Packages utilisés
 ```python
 import pandas as pd
@@ -98,4 +100,21 @@ import cartiflette.s3 as s3
 import geopandas as gpd
 import seaborn as sns
 import matplotlib.pyplot as plt
+
+from shapely.geometry import shape
+from io import StringIO
+from scipy.stats import iqr
+from datetime import datetime
+from sklearn.impute import SimpleImputer, KNNImputer
+from sklearn.linear_model import LinearRegression, Lasso
+from sklearn.model_selection import GridSearchCV
+from sklearn.neighbors import KNeighborsRegressor
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from sklearn.metrics import mean_squared_error, make_scorer
+from statsmodels.tsa.seasonal import seasonal_decompose
+from statsmodels.tsa.holtwinters import ExponentialSmoothing
+from cartiflette.s3 import download_vectorfile_url_all
 ```
+
+

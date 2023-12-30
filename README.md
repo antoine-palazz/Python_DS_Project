@@ -89,7 +89,7 @@ CONCLUSION
 ! pip install git+https://github.com/inseefrlab/cartiflette@80b8a5a28371feb6df31d55bcc2617948a5f9b1a
 
 ```
-Parmi les packages suivants, certains pourraient être à téléchargés si vous n'êtes pas sur le Datalab
+Parmi les packages suivants, certains pourraient être à télécharger si vous n'êtes pas sur le Datalab
 
 ## Packages utilisés
 ```python

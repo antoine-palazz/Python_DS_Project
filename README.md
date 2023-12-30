@@ -6,7 +6,7 @@ Ce projet a été réalisé dans le cadre d'un cours enseigné en deuxième ann�
 
 ## Participants
 
-L'équipe de travail est constitué de trois membres :  
+L'équipe de travail est constituée de trois membres :  
     - M. Richard AKOTONOU VIGNON  
     - Mme Ange Yelva PETNGA NJEUMEN  
     - M. Appolini WODJE  
